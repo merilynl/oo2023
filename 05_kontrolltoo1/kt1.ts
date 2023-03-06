@@ -36,3 +36,12 @@ keedukann.addWater(200, 50);
 keedukann.getTemp();
 keedukann.heat(22);
 keedukann.getTemp();
+
+/*
+VALJUND: 
+Vee temperatuur on alla 80 kraadi.
+Vee temperatuur on 32 kraadi.
+Vee temperatuur on 35.436754176610975 kraadi.
+Vee temperatuur on 37.86396181384248 kraadi.
+Vee temperatuur on 44.16467780429594 kraadi.
+*/
