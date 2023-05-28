@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0.1vh;
+}
+
+hr {
+    border-color: #a01444;
+    border-width: 0.01vw;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+a {
+    color: rgb(189, 0, 0);
+}
+
+a:hover {
+    color: rgb(182, 83, 83);
+}
+
+#tlu_logo_img {
+    width: 20vw;
+    min-width: 20vh;
+    height: auto;
+}
+
+#home_btn_img {
+    width: 5vw;
+    min-width: 8vh;
+    height: auto;
+}
+
+/* NOTIFICATIONS */
+
+#notifications {
+    height: 6vw;
+    min-height: 7vh;
+}
+
+#notif_btn_img {
+    width: 7vw;
+    min-width: 8vh;
+    height: auto;
+}
+
+#home_btn {
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+}
+
+#notif_btn {
+    border-radius: 10%;
+    border: 0.01px solid white;
+    padding: 0px;
+    float: right;
+    position: relative;
+}
+
+.notif_bubble {
+    border-radius: 100%;
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    padding: 1vw;
+    min-width: 2vh;
+    min-height: 2vh;
+    background: red;
+}
+
+#notifs {
+    width: 80%;
+    height: calc(5vh + 3vw);
+    float: left;
+    border: 1px solid #a01444;
+    padding: 1vw;
+    /*visibility: hidden;*/
+}
+
+/* TABLES */
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+  
+.column {
+    flex: 50%;
+}
+
+#table1, #table2, #table3, #table4{
+    overflow-x:auto;
+    padding: 1%;
+}
+
+table {
+    border: 2px solid #a01444;
+    border-collapse: collapse; 
+    table-layout: auto;
+    width: 90%;
+
+}
+
+table caption {
+    font-size: calc(2vh + 1vw);
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    border: 1px solid #9c6377;
+    padding: .35em;
+}
+  
+table th,
+table td {
+    border: 1px solid #9c6377;
+    padding: .625em;
+    text-align: center;
+}
+  
+table th {
+    font-size: calc(0.8vh + 0.6vw);
+    letter-spacing: .1em;
+}
+
+table td {
+    font-size: calc(1vh + 0.5vw);
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        display: block;
+    }
+    .column {
+      width: 100%;
+    }
+    table {
+      width: 100%;
+    }
+}

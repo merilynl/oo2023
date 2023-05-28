@@ -1,0 +1,115 @@
+hr {
+    border-color: #a01444;
+    border-width: 0.01vw;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+
+#tlu_logo_img {
+    width: 20vw;
+    min-width: 20vh;
+    height: auto;
+}
+
+#home_btn_img {
+    width: 5vw;
+    min-width: 8vh;
+    height: auto;
+}
+
+#notif_btn_img {
+    width: 7vw;
+    min-width: 8vh;
+    height: auto;
+}
+
+#home_btn {
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+}
+
+#notifications {
+    width: 100%;
+}
+
+#notif_btn {
+    border-radius: 10%;
+    border: 0.01px solid white;
+    padding: 0px;
+    float: right;
+    position: relative;
+}
+
+.notif_bubble {
+    border-radius: 50%;
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    padding: 0.5vw 1vw;
+    /* min-width: 1vh;
+    min-height: 2vh; */
+    border-radius: 50%;
+    background: red;
+    color: white;
+    font-size: calc(16px + 0.8vw);
+    font-weight: bold;
+}
+
+#tables {
+    position: relative;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table1, #table2, #table3, #table4{
+    overflow-x:auto;
+    float: inline-start;
+    padding: 1%;
+}
+
+table {
+    border: 1px solid #a01444;
+    border-collapse: collapse; 
+    /* margin: 0;
+    padding: 0; */
+    table-layout: auto;
+    /* display: inline-table; */
+    width: 50%;
+
+}
+
+table caption {
+    font-size: calc(1vh + 1vw);
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    border: 1px solid #9c6377;
+    padding: .35em;
+    /* display: flex; */
+}
+  
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+    /* flex: 50%; */
+}
+  
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    /* text-transform: uppercase; */
+}
+
+/* tr {
+    display: flex;
+}
+  
+th, td {
+    flex: 50%;
+     padding: 5px; 
+    font-size: calc(0.8vw + 0.8vh);
+} */
